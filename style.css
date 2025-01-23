@@ -1,0 +1,137 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 50px; /* Ensures content doesn't overlap with fixed footer */
+  }
+  
+  /* Header Styling */
+  header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Profile Picture */
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Main Header */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Me and Projects Section */
+  #about-me, #projects, #education, #contact {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section Titles */
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Project Styling */
+  .project {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Contact Section */
+  #contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  #contact a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .header-content {
+      padding: 0 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .project h3 {
+      font-size: 1.2rem;
+    }
+  
+    #about-me, #projects, #education, #contact {
+      padding: 15px;
+      margin: 20px 15px;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+  
